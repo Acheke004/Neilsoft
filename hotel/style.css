@@ -1,0 +1,147 @@
+/* Global Styles */
+header {
+    background-color: #333;
+    padding: 20px;
+}
+/* .horizontal-bar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  } */
+  .td{
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    
+    
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  .image{
+    width: 100px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .centered {
+    font-style: italic;
+    font-weight: 100px;
+    font-size: 0.7cm;
+    font-variant: small-caps;
+    
+    position:  absolute;
+    color: burlywood;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .navbar ul {
+    display: flex;
+  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  /* Media queries for different screen sizes */
+  @media  (max-width: 600px) {
+    .navbar  {
+      font-size: 14px;
+        padding: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .navbar li {
+      margin: 5px;
+    }
+  }
+  
+  .a{
+    color: white;
+    font-size: small;
+  }
+
+  
+
+/*   
+  .horizontal-bar li {
+    
+    margin-right: 10px;
+  } */
+
+/* nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+} */
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Home Page Styles */
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+a {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+img {
+    padding-top: 0.7cm;
+    max-width: 100%;
+    
+}
+
+/* Menu Page Styles */
+/* ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+} */
+
+/* Contact Page Styles */
+p {
+    margin-bottom: 10px;
+}
